@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop]()
-![mobile]()
+![desktop](https://github.com/mgkh286/3-column-preview-card-component/blob/master/images/screenshot1440.png)
+![mobile](https://github.com/mgkh286/3-column-preview-card-component/blob/master/images/screenshot375.png)
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://www.frontendmentor.io/solutions/3columnpreviewcardcomponent-using-html-and-css-rlas5RHb8)
+- Live Site URL: (https://mgkh286.github.io/3-column-preview-card-component/)
 
 ## My process
 
