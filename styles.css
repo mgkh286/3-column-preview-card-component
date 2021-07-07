@@ -1,0 +1,141 @@
+/* background colors  */
+:root {
+  --brightorange: hsl(31, 77%, 52%);
+  --darkcyan: hsl(184, 100%, 22%);
+  --verydarkcyan: hsl(179, 100%, 13%);
+  --transparentwhite: hsla(0, 0%, 100%, 0.75);
+  --verylightgray: hsl(0, 0%, 95%);
+}
+
+/* General Style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  background-color: var(--verylightgray);
+}
+
+.container {
+  margin: 70px auto;
+  border-radius: 50px;
+  max-width: 375px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 50px 30px;
+}
+
+h3 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  text-transform: uppercase;
+  color: var(--verylightgray);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 18px 0;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--transparentwhite);
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  padding: 15px 0px;
+}
+
+/* Button Style  */
+.btn {
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  border-radius: 25px;
+  margin: 10px 20px 15px 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.bright-orange {
+  background-color: var(--brightorange);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dark-cyan {
+  background-color: var(--darkcyan);
+}
+
+.very-dark-cyan {
+  background-color: var(--verydarkcyan);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Attribution  */
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin: 15px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Query  */
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: 30vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    min-width: 300px;
+    /* padding-top: 50px; */
+  }
+
+  .bright-orange {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+
+  .very-dark-cyan {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+
+  .btn {
+    margin-top: 80px;
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    margin-left: 25%;
+  }
+}
